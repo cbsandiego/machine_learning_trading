@@ -36,11 +36,14 @@ pip install ada-boost
 |:-------------------|------------------------------------------------|-------------|
 |  Baseline Model  |![strategy returns](images/strategy_returns.jpg)| This is our baseline performance for our trading algorithm.  Performance appears to drop at the start of 2016.  We also noticed a sharp drop in the beginning of 2020 before it recovered.|
 |  Tuned Trading Algorithm  |![strategy returns](images/actual_strategy_returns.jpg)|There was little impact when increasing our trianing window.|
-|  Updated Tuned Trading Algorithm |![strategy returns](images/updated_asr.jpg)| By increasing the short window from 4 to 50, the Strategy Returns and Actual Returns were identical and appeared to overlap throughout.  |
+|  Tuned Trading Algorithm - Increased Short Window |![strategy returns](images/updated_asr.jpg)| By increasing the short window from 4 to 50, the Strategy Returns and Actual Returns were identical and appeared to overlap throughout.  |
+|  Tuned Trading Algorithm - Increased Long Window |![strategy returns](images/200.jpg)| By increasing the long window from 100 to 200, the Strategy Returns and Actual Returns appeared to be moving in opposite directions of eachother and not one we should use.  |
 |  AdaBoost Classifier  |![strategy returns](images/adaboost_actual_strategy.jpg)|In this model, our Strategy Returns appear to be identical to our Actual Returns between early 2015 to mid-2018.  It loses in performance throughout 2019 but improves by early 2020.|
 
 
 ### Summary
+
+After comparing each model performance, the original svc model appears to be consistent with each minor improvement, except when we tried to increase the long model's long window.  Including an AdaBoost (Adaptive Boosting) Classifier did show improvement to our model beginning in 2015 and then again in 2019.
 
 ---
 ## Contributors
