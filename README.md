@@ -29,6 +29,17 @@ In terminal, with your conda `dev` environment active, run:
 ```python
 pip install ada-boost
 ```
+---
+## Report - Model Performance Comparison
+
+|          #         |                     Report                     | Description |
+|:-------------------|------------------------------------------------|-------------|
+|  Strategy Returns  |![strategy returns](images/strategy_returns.jpg)|-------------|
+|  Strategy Returns  |![strategy returns](images/actual_strategy_returns.jpg)|-------------|
+|  Strategy Returns  |![strategy returns](images/adaboost_actual_strategy.jpg)|-------------|
+
+
+### Summary
 
 ---
 ## Contributors
